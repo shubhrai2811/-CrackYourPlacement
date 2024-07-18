@@ -10,8 +10,8 @@ public:
         int k=i+1;
         while(j<nums.size() and k<nums.size()){
             if(nums[k]!=0){
-                swap(nums[j],nums[k]);
-                j++;
+                swap(nums[k],nums[j]);
+                ++j;
             }
             k++;
         }
